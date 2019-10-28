@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ## TODO
-- [ ] Splashscreen
+- [x] Splashscreen
 - [x] Icone
