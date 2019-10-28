@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dog_list.dart';
 import 'dog_model.dart';
 import 'new_dog_form.dart';
+import 'splashscreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'We Rate Dogs',
       theme: ThemeData(brightness: Brightness.dark),
-      home: MyHomePage(title: 'We Rate Dogs')
+      home: Splash()
+      //home: MyHomePage(title: 'We Rate Dogs')
     );
   }
 }
